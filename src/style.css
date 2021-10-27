@@ -22,7 +22,7 @@ h3 {
 button {
   padding: 10px 8px;
   font-size: 12pt;
-  border: solid 2px silver;
+  border: solid 2px white;
   box-shadow: var(--box-shadow);
   font-weight: bold;
 }
@@ -64,6 +64,10 @@ img {
   margin: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+.container-1 {
+  background: #f1acc8;
+  margin: 4pt;
 }
 
 @media(max-width:576px) {
