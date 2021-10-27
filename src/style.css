@@ -20,6 +20,7 @@ button {
   font-size: 12pt;
   border: solid 2px silver;
   box-shadow: var(--box-shadow);
+  font-weight: bold;
 }
 button:hover {
   text-decoration: underline;
@@ -61,7 +62,7 @@ img {
   padding-bottom: 20px;
 }
 
-@media(max-width:568px) {
+@media(max-width:576px) {
   html h1 {
     font-size: 25pt;
     padding: 10px;
@@ -70,4 +71,14 @@ img {
     margin-top:20px;
     margin-bottom: 20px;
   }
+  p {
+    text-align: center;
+  }
+  h4{
+    text-align: center;
+  }
+ .button-container {
+   text-align: center;
+ }
+
 }
