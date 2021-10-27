@@ -1,0 +1,73 @@
+:root {
+  --background-text: whitesmoke;
+  --primary-color: #ef5f9a;
+  --secondary-color: hsl(185, 67%, 66%);
+  --third-color: #fdd14f;
+  --box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+html h1 {
+  font-size: 40pt;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+button {
+  padding: 10px 8px;
+  font-size: 12pt;
+  border: solid 2px silver;
+  box-shadow: var(--box-shadow);
+}
+button:hover {
+  text-decoration: underline;
+  color: white;
+}
+img {
+  background: var(--background-text);
+}
+#about-link {
+  background: var(--primary-color);
+}
+#projects-link {
+  background: var(--secondary-color);
+}
+#contact-link {
+  background: #fdd14f;
+}
+#weather-app-button {
+  background: var(--third-color);
+  border-radius: 4px;
+}
+#seaglass-button {
+  background: var(--secondary-color);
+  border-radius: 4px;
+}
+#bateman-button {
+  background: var(--primary-color);
+  border-radius: 4px;
+}
+
+.top-links {
+  display: flex;
+  justify-content: center;
+}
+
+.top-links button {
+  margin: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+@media(max-width:568px) {
+  html h1 {
+    font-size: 25pt;
+    padding: 10px;
+  }
+  img {
+    margin-top:20px;
+    margin-bottom: 20px;
+  }
+}
