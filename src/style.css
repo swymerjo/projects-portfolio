@@ -72,6 +72,9 @@ img {
   padding-top: 20px;
   padding-bottom: 20px; font-family: 'Azeret Mono', monospace;
 }
+.container-1 {
+  background: #faf1f5;
+}
 .about-wrapper {
   margin: 100pt;
 }
