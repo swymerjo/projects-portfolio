@@ -56,7 +56,7 @@ img {
   background: var(--secondary-color);
   border-radius: 4px;
 }
-#bateman-button {
+#tandem-button {
   background: var(--primary-color);
   border-radius: 4px;
 }
@@ -71,9 +71,15 @@ img {
   padding-top: 20px;
   padding-bottom: 20px; font-family: 'Azeret Mono', monospace;
 }
-.container-1 {
-  background: #fad6e4;
-  margin-top: 50px;
+.about-wrapper {
+  margin: 100pt;
+}
+.about-subheading {
+  font-size: 16pt;
+  color: var(--primary-color)
+}
+.about-description {
+  color: slategrey;
 }
 
 @media(max-width:576px) {
