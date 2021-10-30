@@ -8,6 +8,7 @@
 
 html h1 {
   font-size: 40pt;
+  font-family: 'Azeret Mono', monospace;
 }
 html body {
   margin-bottom: 50px;
@@ -18,13 +19,18 @@ h2,
 h3 {
   margin: 0;
 }
-
+p{
+  font-family: 'Azeret Mono', monospace;
+  font-size: 10pt;
+  line-height: 20pt;
+}
 button {
   padding: 10px 8px;
   font-size: 12pt;
   border: solid 2px white;
   box-shadow: var(--box-shadow);
   font-weight: bold;
+  
 }
 button:hover {
   text-decoration: underline;
@@ -63,11 +69,11 @@ img {
 .top-links button {
   margin: 20px;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 20px; font-family: 'Azeret Mono', monospace;
 }
 .container-1 {
-  background: #f1acc8;
-  margin: 4pt;
+  background: #fad6e4;
+  margin-top: 50px;
 }
 
 @media(max-width:576px) {
