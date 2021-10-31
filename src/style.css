@@ -57,7 +57,7 @@ img {
   background: var(--secondary-color);
   border-radius: 4px;
 }
-#tandem-button {
+#tandem-button, #tandem-button-project {
   background: #faf1f5;
   border: 2px solid var(--primary-color);
   border-radius: 4px;
@@ -126,6 +126,7 @@ img {
     font-size: 25pt;
     padding: 10px;
   }
+
   img {
     margin-top:20px;
     margin-bottom: 20px;
@@ -147,4 +148,8 @@ img {
 .profile-pic {
   width: 250px;
 }
+.seaglass-project-mobile{
+  margin-left: 25px;
+}
+
 }
