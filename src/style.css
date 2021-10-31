@@ -88,6 +88,9 @@ li {
   padding:20pt;
   background: white;
  }
+ .about-project-button {
+   background: var(--secondary-color);
+ }
 .homepage-image {
   background: #faf1f5;
   padding-left: 100px;
