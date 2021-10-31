@@ -75,6 +75,12 @@ img {
 .container-1 {
   background: #faf1f5;
 }
+.launch-understandem-link {
+  color: black;
+}
+.launch-understandem-link:hover {
+  color: var(--secondary-color);
+}
 .about-wrapper {
   margin: 100pt;
 }
