@@ -38,7 +38,7 @@ button:hover {
   color: white;
 }
 img {
-  background: var(--background-text);
+  background: #faf1f5;
 }
 #about-link {
   background: var(--primary-color);
