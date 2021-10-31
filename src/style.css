@@ -113,6 +113,7 @@ li {
   font-size: 14pt;
   color: var(--primary-color);
   line-height: 20pt;;
+  padding-top: 10px;
 }
 .about-description {
   color: slategrey;
