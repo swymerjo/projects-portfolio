@@ -58,8 +58,12 @@ img {
   border-radius: 4px;
 }
 #tandem-button {
-  background: var(--primary-color);
+  background: #faf1f5;
+  border: 2px solid var(--primary-color);
   border-radius: 4px;
+}
+.homepage-body {
+  background: #faf1f5;
 }
 
 .top-links {
@@ -75,8 +79,20 @@ img {
 .container-1 {
   background: #faf1f5;
 }
+.homepage-project-wrapper {
+ padding:20pt;
+ background: white;
+}
+.homepage-image {
+  background: #faf1f5;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-bottom:50px;
+  margin-left:20px;
+  margin-right: 10px;
+}
 .launch-understandem-link {
-  color: black;
+  color: var(--primary-color);
 }
 .launch-understandem-link:hover {
   color: var(--secondary-color);
