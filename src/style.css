@@ -136,8 +136,7 @@ li {
   color: slategrey;
 }
 .profile-pic {
-  border-radius: 6px;
-  border: 4px solid white;
+  border-radius: 10px;
 }
 
 .about-project-link {
