@@ -130,8 +130,7 @@ li {
 .about-subheading {
   font-size: 14pt;
   color: var(--primary-color);
-  line-height: 20pt;;
-  padding-top: 10px;
+  line-height: 20pt;
 }
 .about-description {
   color: slategrey;
