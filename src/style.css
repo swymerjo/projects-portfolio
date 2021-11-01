@@ -123,13 +123,32 @@ li {
 }
 .profile-pic {
   border-radius: 6px;
+  border: 4px solid white;
 }
+
 .about-project-link {
   color: black;
 }
 .about-project-link:hover {
   color: var(--primary-color)
 }
+.social-icon {
+  font-size: 40pt;
+  padding-right: 20px;
+}
+.instagram-icon {
+  color: #ED5563
+}
+.twitter-icon {
+  color: #09bdca;
+}
+.linkedin-icon {
+  color: #6DDAE2
+}
+.github-icon {
+  color: #ee8d96;
+}
+
 @media(max-width:576px) {
   html h1 {
     font-size: 25pt;
