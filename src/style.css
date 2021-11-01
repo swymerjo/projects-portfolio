@@ -92,6 +92,7 @@ li {
  }
  .about-project-button {
    background: var(--secondary-color);
+   padding: 20px 10px 20px 10px
  }
 .homepage-image {
   background: #faf1f5;
@@ -115,6 +116,9 @@ li {
 }
 .launch-weatherapp-link {
   color: var(--third-color);
+}
+.launch-weatherapp-link:hover {
+  color: var(--primary-color);
 }
 .about-wrapper {
   margin: 100pt;
