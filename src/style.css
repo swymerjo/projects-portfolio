@@ -148,7 +148,21 @@ li {
 .github-icon {
   color: #ee8d96;
 }
+.footer-name{
+  color: var(--primary-color);
+  font-weight: bold;
+}
 
+.footer-link {
+  color: black;
+  font-weight: bold;
+}
+.footer-name:hover{
+  color: var(--secondary-color);
+}
+.footer-link:hover {
+  color:var(--third-color);
+}
 @media(max-width:576px) {
   html h1 {
     font-size: 25pt;
