@@ -176,6 +176,12 @@ li {
 .footer-link:hover {
   color:var(--third-color);
 }
+.container-blog {
+  max-width: 90%;
+  background-image: url('/images/container-blog.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+}
 @media(max-width:576px) {
   html h1 {
     font-size: 25pt;
