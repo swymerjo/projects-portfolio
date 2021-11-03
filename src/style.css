@@ -65,7 +65,7 @@ li {
   border: 2px solid var(--primary-color);
   border-radius: 4px;
 }
-.homepage-body, .about-body {
+.homepage-body {
   background: #faf1f5;
 }
 
@@ -175,6 +175,9 @@ li {
 }
 .footer-link:hover {
   color:var(--third-color);
+}
+.footer-container {
+  background: white;
 }
 .container-blog {
   max-width: 90%;
