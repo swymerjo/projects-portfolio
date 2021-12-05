@@ -161,6 +161,8 @@ li {
 }
 .profile-pic {
   border-radius: 10px;
+  float: right;
+  width: 400px;
 }
 
 .about-project-link {
@@ -245,6 +247,7 @@ li {
 }
 .profile-pic {
   width: 250px;
+  float: none;
 }
 .seaglass-col{
   padding-top: 25px;
