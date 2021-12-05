@@ -53,7 +53,7 @@ li {
 #contact-link {
   background: #fdd14f;
 }
-#weather-app-button {
+#weather-app-button, #featured-button {
   background: rgb(22, 22, 22);
   border-radius: 4px;
   border: 2px solid var(--third-color);
