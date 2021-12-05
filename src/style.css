@@ -77,7 +77,6 @@ li {
 }
 .projects-subtitle{
   color: white;
-  opacity: 0.9;
   font-weight: bold;
 }
 .about-control{
@@ -244,7 +243,6 @@ li {
 .about-wrapper {
   margin: 0;
   text-align: center;
-
 }
 .profile-pic {
   width: 250px;
@@ -256,6 +254,7 @@ li {
   margin: 0 0 10px 0;
   padding: 0
 }
+
 
 }
 
