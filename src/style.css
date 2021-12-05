@@ -75,7 +75,7 @@ li {
 .homepage-subtitle{
   font-weight: bold;
 }
-.projects-subtitle{
+.project-title, .projects-subtitle{
   color: white;
   font-weight: bold;
 }
@@ -169,9 +169,6 @@ li {
 .about-project-link:hover {
   color: var(--primary-color);
 }
-.project-title{
-  color: white;
-}
 .social-icon {
   font-size: 40pt;
   padding-right: 20px;
@@ -220,6 +217,9 @@ li {
   background-repeat: no-repeat;
   background-position: center;
 }
+.blog-subtitle{
+  padding-left: 50px;
+}
 @media(max-width:576px) {
   html h1 {
     font-size: 25pt;
@@ -253,7 +253,10 @@ li {
   margin: 0 0 10px 0;
   padding: 0
 }
-
-
+.container-blog {
+  max-width: 100%;
 }
-
+.blog-subtitle{
+  padding: 0;
+}
+}
