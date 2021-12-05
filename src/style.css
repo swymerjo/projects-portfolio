@@ -69,7 +69,7 @@ li {
   border-radius: 4px;
 }
 .homepage-body {
-  background: silver;
+  background: #3C4043;
 
 }
 .homepage-subtitle{
@@ -98,7 +98,7 @@ li {
   padding-bottom: 20px; font-family: 'Azeret Mono', monospace;
 }
 .container-1 {
-  background: silver;
+  background: #3C4043;
 
 }
 .container-2 {
@@ -169,6 +169,10 @@ li {
 }
 .about-project-link:hover {
   color: var(--primary-color);
+}
+.project-title{
+  color: white;
+  opacity: 0.9;
 }
 .social-icon {
   font-size: 40pt;
