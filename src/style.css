@@ -10,7 +10,6 @@ html h1 {
   font-size: 40pt;
 }
 
-
 h1,
 h2,
 h3 {
@@ -35,7 +34,7 @@ button:hover {
 }
 img {
   background: #faf1f5;
-  border: 2px solid var(--primary-color)
+  border: 2px solid #faf1f5;
 }
 li {
   font-family: 'Azeret Mono', monospace;
@@ -46,7 +45,7 @@ li {
   background: var(--primary-color);
 }
 #projects-link {
-  background: var(--secondary-color);
+  background: black;
 }
 #contact-link {
   background: #fdd14f;
@@ -68,6 +67,7 @@ li {
 }
 .homepage-body {
   background: #faf1f5;
+
 }
 
 .top-links {
@@ -82,14 +82,22 @@ li {
 }
 .container-1 {
   background: #faf1f5;
+
+}
+.container-2 {
+  background: black;
+  color: white;
+  padding: 20px;
+
 }
 .homepage-project-wrapper {
- padding:20pt;
- background: white;
+ padding-bottom:20pt;
+ background: black;
+ color:#faf1f5;
 }
 .about-project-wrapper {
   padding:20pt;
-  background: white;
+  background: #faf1f5;;
  }
  .about-project-button {
    background: var(--secondary-color);
@@ -97,8 +105,7 @@ li {
  }
 .homepage-image {
   background: #faf1f5;
-  padding-left: 100px;
-  padding-right: 100px;
+ padding: 10px;
   margin-bottom:50px;
   margin-left:20px;
   margin-right: 10px;
@@ -127,6 +134,7 @@ li {
 .about-name {
   font-family: 'Azeret Mono', monospace;
   font-weight: bold;
+  color: white;
 }
 .about-subheading {
   font-size: 14pt;
@@ -134,7 +142,7 @@ li {
   line-height: 20pt;
 }
 .about-description {
-  color: slategrey;
+  color: white;
 }
 .profile-pic {
   border-radius: 10px;
@@ -178,7 +186,7 @@ li {
   color:var(--third-color);
 }
 .footer-container {
-  background: #e0f5f7;
+  background: #faf1f5;;
 }
 .email {
   color: var(--primary-color);
