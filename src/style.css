@@ -58,7 +58,7 @@ li {
   border-radius: 4px;
   border: 2px solid var(--third-color);
 }
-#seaglass-button {
+#seaglass-button, #dictionary-button {
   background: rgb(22, 22, 22);
   border-radius: 4px;
   border: 2px solid var(--secondary-color);
@@ -131,10 +131,10 @@ li {
 .launch-understandem-link:hover {
   color: var(--secondary-color);
 }
-.launch-seaglass-link {
+.launch-seaglass-link, .launch-dictionary-link  {
   color: var(--secondary-color);
 }
-.launch-seaglass-link:hover {
+.launch-seaglass-link:hover, .launch-dictionary-link:hover {
   color: var(--primary-color);
 }
 .launch-weatherapp-link {
