@@ -107,11 +107,9 @@ li {
    padding: 20px 10px 20px 10px
  }
 .homepage-image {
-  background: #faf1f5;
- padding: 10px;
-  margin-bottom:50px;
-  margin-left:20px;
-  margin-right: 10px;
+ display: block;
+ margin-left: 40%;
+
 }
 .launch-understandem-link {
   color: var(--primary-color);
