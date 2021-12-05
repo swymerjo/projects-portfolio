@@ -35,6 +35,8 @@ button:hover {
 img {
   background: #faf1f5;
   border: 2px solid #faf1f5;
+  width: 400px;
+  height: 100px;
 }
 li {
   font-family: 'Azeret Mono', monospace;
