@@ -94,7 +94,8 @@ li {
 .top-links button {
   margin: 20px;
   padding-top: 20px;
-  padding-bottom: 20px; font-family: 'Azeret Mono', monospace;
+  padding-bottom: 20px; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .container-1 {
   background: #3C4043;
@@ -145,7 +146,7 @@ li {
   margin: 100pt;
 }
 .about-name {
-  font-family: 'Azeret Mono', monospace;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: bold;
   color: white;
 }
