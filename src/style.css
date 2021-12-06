@@ -114,7 +114,7 @@ li {
 .about-project-wrapper {
   padding:20pt;
   background: silver;
-  border: 4px solid var(--primary-color)
+  border: 4px solid white;
  }
  .about-project-button {
    background: var(--secondary-color);
