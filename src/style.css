@@ -63,7 +63,7 @@ li {
   border-radius: 4px;
   border: 2px solid var(--secondary-color);
 }
-#tandem-button, #tandem-button-project {
+#tandem-button, #tandem-button-project, #weather-react-button {
   background: rgb(22, 22, 22);
   border: 2px solid var(--primary-color);
   border-radius: 4px;
@@ -125,10 +125,10 @@ li {
  float: right;
  width: 350px;
 }
-.launch-understandem-link {
+.launch-understandem-link, .launch-react-link {
   color: var(--primary-color);
 }
-.launch-understandem-link:hover {
+.launch-understandem-link:hover, .launch-react-link:hover  {
   color: var(--secondary-color);
 }
 .launch-seaglass-link, .launch-dictionary-link, .launch-projects-link  {
@@ -250,7 +250,7 @@ li {
   width: 250px;
   float: none;
 }
-.seaglass-col{
+.seaglass-col, .dictionary-col{
   padding-top: 25px;
 }
 .about-control{
